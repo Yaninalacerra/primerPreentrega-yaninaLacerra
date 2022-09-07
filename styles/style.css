@@ -134,13 +134,14 @@ body {
   min-height: 50rem;
 }
 
-.div--imagenRight,.div--imagenLeft{
+.div--imagenRight,
+.div--imagenLeft {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.div--parrafoImagen{
+.div--parrafoImagen {
   width: 35rem;
 }
 
@@ -152,9 +153,69 @@ body {
   max-height: 35rem;
 }
 
+.main--containerContactanos {
+  display: flex;
+}
+
+.main--consultanos,
+.logo--contactanos,
+.main--contactanos {
+  width: 30%;
+  height: 50rem;
+}
+
+.img--logoContactanos {
+  max-width: 50%;
+  height: auto;
+}
+
+.img--whatsapp {
+  max-width: 20%;
+  height: auto;
+}
+
+.iframe--mapa {
+  max-width: 70%;
+  height: auto;
+}
+
 .footer {
-  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 5vh;
   background-color: var(--primary-color);
+}
+
+.div--imagenPago {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+  width: 15rem;
+  height: 2rem;
+}
+.credit--card {
+  
+  width: 2rem;
+  height: 2rem;
+}
+
+.textoPago {
+  font-size: 1rem;
+ 
+}
+.textoPago2 {
+  font-size: 1rem;
+}
+
+.logoFooter {
+
+}
+
+.logo--footer {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 @media screen and (min-width: 750px) {
